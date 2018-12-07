@@ -1,0 +1,137 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hello world"
+  record_not_found: 'Record cannot be found'
+
+  errors:
+    errors: Errors
+    field_required: "%{field} is required"
+    invalid_mobile: Invalid mobile number
+    invalid_client: Invalid client credentials
+    mobile_not_found: Mobile number not found.
+    invalid_otp: Invalid OTP
+  general:
+    dashboard: Dashboard
+    fieldVisits: Field Visits
+    workLocation: Work Location
+    visitCounts: Visit Counts
+    visitComments: Visit Comments
+    actions: Actions
+    reports: Reports
+    are_you_sure: Are you sure?
+    business_id: Business ID
+    cancel: Cancel
+    check_in_id: CheckIn ID
+    date_time: Date Time
+    designation: Designation
+    email: Email
+    first_name: First Name
+    last_name: Last Name
+    latitude: Latitude
+    longitude: Logitude
+    middle_name: Middle Name
+    mobile_number: Mobile Number
+    name: User Name
+    new: ADD USER
+    password: Password
+    password_confirmation: Password Confirmation
+    save: Save
+    time: Time
+    user_id: User Id
+    user_name: User Name
+    work_location: Work Location
+    users: Users
+    Edit_User: Edit User
+    Delete_User: Delete User
+  menu:
+    dashboard: Dashboard
+    reports: Reports
+    users: Users
+    check_ins: Check In
+    punches: Time In
+    user_tracks: User Tracks
+
+  messages:
+    saved: Saved successfully.
+    deleted: Deleted successfully.
+
+  not_authorized:
+    default: 'You are not authorized to perform this action'
+
+  notifications:
+    type:
+      success: success
+      warning: warning
+      info: info
+      error: danger
+    messages:
+      successful_created: "%{model} Successfully Created."
+      successful_update: "%{model} Successfully Updated."
+      successful_deleted: "%{model} Successfully Deleted."
+
+  punches:
+    punch_in: Time In
+    punch_in_datetime: PunchIn Time
+    punch_out: Time Out
+    punch_out_datetime: PunchOut time
+    map: Map
+
+  check_ins:
+    check_in: Check In
+    check_in_datetime: Check In Time
+    check_in_latitude: CheckIn latitude
+    check_in_longitude: CheckIn longitude
+    check_out: Check Out
+    check_out_datetime: Check Out Time
+    check_out_latitude: CheckOut latitude
+    check_out_longitude: CheckOut longitude
+    duration: Duration
+  sms:
+    otp_message: "%{otp} is the activation code for %{company} app. Valid for %{validity} minutes"
+    welcome_msg: "Welcome to %{company_name}! Please download the app from %{url} to get started"
+  users:
+    add: Add User
+    edit: Edit User
+  fieldVisits:
+    buisness_name: Buisness Name
+    buisness_nickname: Nickname
+    buisness_concernedPerson: Concerned Person
+    check_in_time: Check In Time
+    check_out_time: Check Out Time
+    visit_result: Visit Result
+    notes: Notes  
+    actions: Actions
+  validations:
+    phone: Please enter valid phone number
+    email: Please enter valid email
+ 

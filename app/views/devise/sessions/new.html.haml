@@ -1,0 +1,19 @@
+.container-100
+  .content
+    .wrapper-login-100
+      .logo
+        = render 'devise/shared/logo'
+      .login100-form-title Log in
+      = form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+        .field.wrap-input100
+          = f.email_field :email, autofocus: true, autocomplete: "email", class: 'input100', placeholder: 'Email'
+        .field.wrap-input100
+          = f.password_field :password, autocomplete: "off", class: 'input100', placeholder: 'Password'
+        - if devise_mapping.rememberable?
+          .field
+            = f.check_box :remember_me
+            = f.label :remember_me
+        .actions
+          = f.submit "LOGIN", class: 'ant-btn ant-btn-primary'
+
+      -#= render "devise/shared/links"

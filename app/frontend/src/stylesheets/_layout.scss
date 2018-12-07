@@ -1,0 +1,43 @@
+.main-layout {
+  .header {
+    background-color: #0473bb;
+    padding: 0 10px 0 5px;
+  }
+  .header-logo {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .sider {
+    background-color: #0473bb;
+    color:#ffffff;
+    .logo {
+      padding: 0 10px 10px 10px;
+    }
+  }
+  .trigger {
+    cursor: pointer;
+  }
+}
+.Shape {
+  width: 44.3px;
+  height: 34.9px;
+  object-fit: contain;
+  background-color: #0392ef;
+}
+.content-outer {
+ // left:150;
+  margin-top:25px;
+  margin-left:15px;
+  margin-right:15px;
+  margin-bottom:15px;
+  .content-header {
+    background-color: #FFFF;
+  }
+  .content {
+    background-color: #ffffff;
+    min-height: 600px;
+    padding: 5px;
+  }
+}
